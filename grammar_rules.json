@@ -1,0 +1,1420 @@
+[
+ {
+  "rule_id": "to_be_missing",
+  "name": "Пропущен be (I am a student, I am 20, I will be happy)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "to_be",
+  "topic": "A1 Знакомство",
+  "text_ru": "В английском предложении всегда есть глагол: где по-русски его нет («я студент», «мне 20 лет»), ставим am / is / are (I am a student, I am 20, I will be happy).",
+  "text_en": "Every English sentence needs a verb: use am / is / are where Russian has none (I am a student, I am 20, I will be happy).",
+  "wrong": "I student. I have 20 years.",
+  "right": "I am a student. I am 20 years old."
+ },
+ {
+  "rule_id": "to_be_form",
+  "name": "am, is или are",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "to_be",
+  "topic": "A1 Знакомство",
+  "text_ru": "С I используется am, с he / she / it — is, с we / you / they — are.",
+  "text_en": "Use am with I, is with he / she / it, and are with we / you / they.",
+  "wrong": "She are my friend.",
+  "right": "She is my friend."
+ },
+ {
+  "rule_id": "to_be_extra",
+  "name": "Лишний be перед смысловым глаголом",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "to_be",
+  "topic": "A1 Знакомство",
+  "text_ru": "Если в предложении уже есть смысловой глагол (agree, like, live), am / is / are не нужен: I agree, I like pizza.",
+  "text_en": "Do not add am / is / are before a main verb: I agree, I like pizza.",
+  "wrong": "I am agree. I am like pizza.",
+  "right": "I agree. I like pizza."
+ },
+ {
+  "rule_id": "plural_form",
+  "name": "Множественное число: -s / -es / -ies и особые формы (children, men)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "nouns_articles_basic",
+  "topic": "general",
+  "text_ru": "Множественное число образуется с -s (brothers), после s, x, ch, sh — с -es (boxes), y после согласной меняется на -ies (cities); у некоторых слов особая форма (children, men, people).",
+  "text_en": "Plurals take -s, -es after s / x / ch / sh, and -ies after a consonant + y; some are irregular (children, men, people).",
+  "wrong": "I have two brother. Three citys. Two childs.",
+  "right": "I have two brothers. Three cities. Two children."
+ },
+ {
+  "rule_id": "article_a_an",
+  "name": "a / an перед исчисляемым в ед. ч.; an перед гласным звуком; не перед мн. ч.",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "nouns_articles_basic",
+  "topic": "general",
+  "text_ru": "Перед исчисляемым существительным в единственном числе нужен артикль a, перед гласным звуком — an (a dog, an apple); с множественным числом a не ставится.",
+  "text_en": "A singular countable noun needs a, or an before a vowel sound (a dog, an apple); a is not used with plurals.",
+  "wrong": "I have dog and a apple.",
+  "right": "I have a dog and an apple."
+ },
+ {
+  "rule_id": "pronoun_personal",
+  "name": "Личные местоимения: I / me, he / she / it; подлежащее it нельзя пропускать",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "pronouns",
+  "topic": "A1 Знакомство",
+  "text_ru": "Перед глаголом — I, he, she, it, we, they, после глагола — me, him, her, us, them; подлежащее не пропускается, о погоде и предметах говорим it (It is raining).",
+  "text_en": "Use I / he / she / we / they before the verb and me / him / her / us / them after it; a sentence needs a subject, so say It is raining.",
+  "wrong": "He loves she. Is raining.",
+  "right": "He loves her. It is raining."
+ },
+ {
+  "rule_id": "pronoun_possessive",
+  "name": "Притяжательные: my, his, her, 's",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "pronouns",
+  "topic": "A1 Семья и дом",
+  "text_ru": "«Мой, его, её» — my, his, her: his, если владелец мужчина, her — если женщина; «папина машина» — my father's car.",
+  "text_en": "Use my, his, her before a noun: his for a male owner, her for a female owner; use 's for a person's things (my father's car).",
+  "wrong": "This is me brother. I love mine parents.",
+  "right": "This is my brother. I love my parents."
+ },
+ {
+  "rule_id": "this_these",
+  "name": "this / that — ед. ч., these / those — мн. ч.",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "pronouns",
+  "topic": "A1 Семья и дом",
+  "text_ru": "This / that — для одного предмета, these / those — для нескольких (These are my friends).",
+  "text_en": "Use this / that with one thing and these / those with several (These are my friends).",
+  "wrong": "This are my friends.",
+  "right": "These are my friends."
+ },
+ {
+  "rule_id": "present_simple_s",
+  "name": "-s у глагола после he / she / it, somebody, everybody (has, has got, goes, studies)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_simple",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "В Present Simple после he, she, it (а также somebody, everybody) к глаголу добавляется -s: she works, he goes, she studies, she has, she has got.",
+  "text_en": "In the Present Simple add -s after he / she / it (and somebody, everybody): she works, he goes, she studies, she has, she has got.",
+  "wrong": "She work and have a car.",
+  "right": "She works and has a car."
+ },
+ {
+  "rule_id": "present_simple_s_extra",
+  "name": "Лишнее -s после I / you / we / they",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_simple",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "После I, you, we, they глагол в Present Simple стоит без -s: they work.",
+  "text_en": "After I / you / we / they the verb has no -s: they work.",
+  "wrong": "They works in a bank.",
+  "right": "They work in a bank."
+ },
+ {
+  "rule_id": "present_simple_no_do",
+  "name": "Отрицание и вопрос без do / does",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_simple",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "Отрицание и вопрос в Present Simple строятся с do / does: I don't like coffee; Do you like tea?",
+  "text_en": "Present Simple negatives and questions need do / does: I don't like coffee; Do you like tea?",
+  "wrong": "I not like coffee. You like tea?",
+  "right": "I don't like coffee. Do you like tea?"
+ },
+ {
+  "rule_id": "present_simple_do_does",
+  "name": "do или does, don't или doesn't",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_simple",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "С he, she, it используется does / doesn't, с остальными — do / don't.",
+  "text_en": "Use does / doesn't with he / she / it and do / don't with the others.",
+  "wrong": "She don't like coffee. Do she like tea?",
+  "right": "She doesn't like coffee. Does she like tea?"
+ },
+ {
+  "rule_id": "present_simple_base_after_does",
+  "name": "После does / doesn't глагол без -s",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_simple",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "-s уже есть в does, поэтому смысловой глагол после does / doesn't стоит без -s: She doesn't like it; Does she like it?",
+  "text_en": "Does already carries the -s, so the main verb has none: She doesn't like it; Does she like it?",
+  "wrong": "She doesn't likes coffee. Does she likes tea?",
+  "right": "She doesn't like coffee. Does she like tea?"
+ },
+ {
+  "rule_id": "frequency_adverb_position",
+  "name": "Наречие частоты — перед глаголом, но после be",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "adverbs_of_frequency",
+  "topic": "A2 Распорядок дня",
+  "text_ru": "Наречия частоты (always, usually, often, never) стоят перед смысловым глаголом, но после am / is / are: I usually drink tea; She is never late.",
+  "text_en": "Adverbs of frequency go before the main verb but after am / is / are: I usually drink tea; She is never late.",
+  "wrong": "I drink usually tea. She never is late.",
+  "right": "I usually drink tea. She is never late."
+ },
+ {
+  "rule_id": "prep_time",
+  "name": "at / on / in со временем; без предлога перед next, last, every, this",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "prepositions",
+  "topic": "general",
+  "text_ru": "At — с часами (at 5), on — с днями и датами (on Monday), in — с месяцами, годами и временами года (in July); перед next, last, every, this предлог не нужен.",
+  "text_en": "Use at for clock times, on for days and dates, in for months, years and seasons; no preposition before next, last, every, this.",
+  "wrong": "See you in Monday at 5. I will go on next week.",
+  "right": "See you on Monday at 5. I will go next week."
+ },
+ {
+  "rule_id": "prep_place",
+  "name": "in / on / at, at home, next to, go to (направление)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "prepositions",
+  "topic": "general",
+  "text_ru": "In — внутри, on — на поверхности, at — в точке (at home, at school); направление — to (go to school), но go home без to.",
+  "text_en": "Use in for inside, on for surfaces, at for points (at home); use to for direction (go to school), but say go home.",
+  "wrong": "The book is in the table. I go in school.",
+  "right": "The book is on the table. I go to school."
+ },
+ {
+  "rule_id": "be_vs_do",
+  "name": "С be (am / is / are, was / were, Continuous) вопрос и отрицание без do",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "questions",
+  "topic": "general",
+  "text_ru": "С am / is / are и was / were (в том числе в Continuous) do не нужен: в вопросе be ставится перед подлежащим, в отрицании добавляется not (Are you hungry? I am not working).",
+  "text_en": "With be (am / is / are, was / were, also in Continuous tenses) do is not used: put be before the subject in questions and add not in negatives.",
+  "wrong": "Do you are hungry? I don't working now.",
+  "right": "Are you hungry? I am not working now."
+ },
+ {
+  "rule_id": "question_word_order",
+  "name": "В вопросе вспомогательный глагол перед подлежащим",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "questions",
+  "topic": "general",
+  "text_ru": "В английском вопросе вспомогательный глагол (do, is, are, can...) стоит перед подлежащим: Where do you live? Is there a cafe here?",
+  "text_en": "In questions the auxiliary (do, is, can...) comes before the subject: Where do you live? Is there a cafe here?",
+  "wrong": "Where you live? There is a cafe here?",
+  "right": "Where do you live? Is there a cafe here?"
+ },
+ {
+  "rule_id": "question_short_answer",
+  "name": "Краткий ответ — вспомогательным глаголом",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "questions",
+  "topic": "general",
+  "text_ru": "В кратком ответе повторяем вспомогательный глагол из вопроса, а не смысловой: Do you like tea? — Yes, I do.",
+  "text_en": "Short answers repeat the auxiliary from the question, not the main verb: Do you like tea? — Yes, I do.",
+  "wrong": "Do you like tea? — Yes, I like.",
+  "right": "Do you like tea? — Yes, I do."
+ },
+ {
+  "rule_id": "modal_base_verb",
+  "name": "После can, could, must, should, might, will — глагол без to и без -s",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "modals_basic",
+  "topic": "A1 В кафе",
+  "text_ru": "После can, could, must, should, might, will глагол стоит в начальной форме без to и без -s: I can swim, she will go.",
+  "text_en": "After can, could, must, should, might and will use the base verb without to or -s: I can swim, she will go.",
+  "wrong": "I can to swim. She will goes there.",
+  "right": "I can swim. She will go there."
+ },
+ {
+  "rule_id": "modal_no_do",
+  "name": "Отрицание и вопрос с can, could, should, will, must — без do / did",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "modals_basic",
+  "topic": "A1 В кафе",
+  "text_ru": "Модальные глаголы сами образуют отрицание и вопрос, do / did с ними не нужен: I can't swim; Could you come?",
+  "text_en": "Modal verbs form negatives and questions without do / did: I can't swim; Could you come?",
+  "wrong": "I don't can swim. Did you could come?",
+  "right": "I can't swim. Could you come?"
+ },
+ {
+  "rule_id": "verb_ing_after_like",
+  "name": "После enjoy, finish, mind — глагол с -ing; после like, love, hate — -ing или to",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "verb_patterns",
+  "topic": "general",
+  "text_ru": "После enjoy, finish, mind глагол стоит только с -ing (I enjoy dancing); после like, love, hate можно и -ing, и to (I like swimming / I like to swim), но не просто глагол (I like swim).",
+  "text_en": "After enjoy, finish and mind use only the -ing form (I enjoy dancing); after like, love and hate use -ing or to (I like swimming / I like to swim), but not the bare verb.",
+  "wrong": "I like swim. I enjoy to dance.",
+  "right": "I like swimming. I enjoy dancing."
+ },
+ {
+  "rule_id": "present_cont_form",
+  "name": "Форма Present Continuous: am / is / are + глагол с -ing (пропущен be или -ing)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_continuous",
+  "topic": "A2 Разговор в парке",
+  "text_ru": "Present Continuous = am / is / are + глагол с -ing: I am walking, they are running.",
+  "text_en": "The Present Continuous is am / is / are + verb-ing: I am walking, they are running.",
+  "wrong": "I walking in the park. They is run.",
+  "right": "I am walking in the park. They are running."
+ },
+ {
+  "rule_id": "present_simple_vs_continuous",
+  "name": "Выбор времени: сейчас — Present Continuous, регулярно — Present Simple",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_continuous",
+  "topic": "A2 Разговор в парке",
+  "text_ru": "О том, что происходит прямо сейчас, говорим в Present Continuous (I am walking now), а о привычках и регулярных действиях — в Present Simple (I get up at 7 every day).",
+  "text_en": "Use the Present Continuous for what is happening now and the Present Simple for habits and routines (I get up at 7 every day).",
+  "wrong": "I walk with my friend now. I am getting up at 7 every day.",
+  "right": "I am walking with my friend now. I get up at 7 every day."
+ },
+ {
+  "rule_id": "there_agreement",
+  "name": "is / was — для одного, are / were — для нескольких",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "there_is_are",
+  "topic": "A2 Разговор в парке",
+  "text_ru": "There is / was — для одного предмета или неисчисляемого существительного, there are / were — для нескольких: There are two dogs.",
+  "text_en": "Use there is / was with one thing or an uncountable noun and there are / were with plurals: There are two dogs.",
+  "wrong": "There is two dogs. There was many people.",
+  "right": "There are two dogs. There were many people."
+ },
+ {
+  "rule_id": "there_missing",
+  "name": "Пропущено there (калька «В парке есть...»)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "there_is_are",
+  "topic": "A2 Разговор в парке",
+  "text_ru": "«Где-то есть что-то» по-английски начинается с there is / there are, а место ставится в конец: There is a dog in the park.",
+  "text_en": "To say that something exists somewhere, start with there is / there are and put the place at the end: There is a dog in the park.",
+  "wrong": "In the park is a dog. In the park have many trees.",
+  "right": "There is a dog in the park. There are many trees in the park."
+ },
+ {
+  "rule_id": "past_tense_needed",
+  "name": "О прошлом (yesterday, last, ago) — Past Simple; -ed у правильных глаголов",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_simple",
+  "topic": "A2 Как прошли выходные",
+  "text_ru": "О законченных действиях в прошлом (yesterday, last week, ago) говорим в Past Simple: к правильным глаголам добавляется -ed (played, visited).",
+  "text_en": "Use the Past Simple for finished past actions (yesterday, last week, ago); regular verbs take -ed (played, visited).",
+  "wrong": "Yesterday I play tennis and go home.",
+  "right": "Yesterday I played tennis and went home."
+ },
+ {
+  "rule_id": "past_irregular",
+  "name": "Неправильные глаголы: went, bought, saw (без -ed, не третья форма)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_simple",
+  "topic": "A2 Как прошли выходные",
+  "text_ru": "У неправильных глаголов своя форма прошедшего времени — вторая форма из таблицы (go — went, see — saw, buy — bought), -ed не добавляется.",
+  "text_en": "Irregular verbs have their own past form, the second form in the table (go — went, see — saw, buy — bought), not -ed.",
+  "wrong": "I goed to the park and seen him.",
+  "right": "I went to the park and saw him."
+ },
+ {
+  "rule_id": "past_did_form",
+  "name": "Отрицание и вопрос — did / didn't + начальная форма",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_simple",
+  "topic": "A2 Как прошли выходные",
+  "text_ru": "Отрицание и вопрос в Past Simple — did / didn't + глагол в начальной форме: I didn't go; Where did you go?",
+  "text_en": "Past Simple negatives and questions use did / didn't + the base verb: I didn't go; Where did you go?",
+  "wrong": "I didn't went there. Where you went?",
+  "right": "I didn't go there. Where did you go?"
+ },
+ {
+  "rule_id": "past_was_were",
+  "name": "was или were",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_simple",
+  "topic": "A2 Как прошли выходные",
+  "text_ru": "С I, he, she, it используется was, с you, we, they — were.",
+  "text_en": "Use was with I / he / she / it and were with you / we / they.",
+  "wrong": "They was at home. I were tired.",
+  "right": "They were at home. I was tired."
+ },
+ {
+  "rule_id": "some_any",
+  "name": "some — в утверждении; any, anything, anybody — в отрицании и вопросе",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "some_any",
+  "topic": "A1 В кафе",
+  "text_ru": "Some (something, somebody) — в утвердительных предложениях, any (anything, anybody) — в отрицаниях и вопросах; в просьбах и предложениях тоже some (Would you like some tea?).",
+  "text_en": "Use some (something, somebody) in positive sentences and any (anything, anybody) in negatives and questions; offers and requests also use some (Would you like some tea?).",
+  "wrong": "I don't have some sugar. I didn't see something.",
+  "right": "I don't have any sugar. I didn't see anything."
+ },
+ {
+  "rule_id": "quantity_words",
+  "name": "Выбор слова по исчисляемости: many / much, few / little, How many / How much",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "quantity",
+  "topic": "general",
+  "text_ru": "С исчисляемыми (friends, apples) — many, few, How many, с неисчисляемыми (money, time) — much, little, How much; a lot of подходит для обоих.",
+  "text_en": "Use many / few / How many with countable nouns and much / little / How much with uncountable nouns; a lot of works with both.",
+  "wrong": "I don't have many money. How much apples? I have a lot friends.",
+  "right": "I don't have much money. How many apples? I have a lot of friends."
+ },
+ {
+  "rule_id": "uncountable_nouns",
+  "name": "Неисчисляемые (advice, information, news, hair): без -s, без a, глагол в ед. ч.",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "quantity",
+  "topic": "general",
+  "text_ru": "Некоторые слова в английском неисчисляемые (advice, information, news, money, hair): у них нет -s и артикля a, а глагол стоит в единственном числе (The news is good).",
+  "text_en": "Some nouns are uncountable (advice, information, news, hair): no -s, no a, and a singular verb (The news is good).",
+  "wrong": "He gave me an advice. The news are good.",
+  "right": "He gave me some advice. The news is good."
+ },
+ {
+  "rule_id": "comparison_form",
+  "name": "-er / -est или more / most; better, the best; без двойного сравнения",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "comparison",
+  "topic": "general",
+  "text_ru": "Короткие прилагательные получают -er / -est (cheaper, the biggest), длинные — more / most (more beautiful); good — better — the best, bad — worse — the worst; more и -er вместе не используются.",
+  "text_en": "Short adjectives take -er / -est, long ones take more / most; good — better — the best, bad — worse — the worst; never use more together with -er.",
+  "wrong": "It is more cheap and more bigger. This is gooder.",
+  "right": "It is cheaper and bigger. This is better."
+ },
+ {
+  "rule_id": "comparison_than_the",
+  "name": "После сравнительной степени — than, перед превосходной — the",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "comparison",
+  "topic": "general",
+  "text_ru": "После сравнительной степени ставим than (taller than me), а перед превосходной — the (the best student).",
+  "text_en": "Use than after a comparative (taller than me) and the before a superlative (the best student).",
+  "wrong": "He is taller then me. She is best student.",
+  "right": "He is taller than me. She is the best student."
+ },
+ {
+  "rule_id": "going_to_form",
+  "name": "am / is / are + going to + глагол",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "future",
+  "topic": "B1 Учёба и планы",
+  "text_ru": "Планы на будущее: am / is / are + going to + глагол в начальной форме (I am going to visit my aunt).",
+  "text_en": "For plans use am / is / are + going to + the base verb (I am going to visit my aunt).",
+  "wrong": "I going visit my aunt.",
+  "right": "I am going to visit my aunt."
+ },
+ {
+  "rule_id": "present_perfect_form",
+  "name": "have / has + третья форма; вопрос — Have you...?, без do",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect",
+  "topic": "B1 Опыт путешествий",
+  "text_ru": "Present Perfect = have / has + третья форма глагола (I have seen, she has gone); в вопросе have / has ставится перед подлежащим, do не нужен.",
+  "text_en": "The Present Perfect is have / has + past participle (I have seen, she has gone); questions start with have / has, not do.",
+  "wrong": "I seen this film. She have went. Do you have seen it?",
+  "right": "I have seen this film. She has gone. Have you seen it?"
+ },
+ {
+  "rule_id": "conjunction_double",
+  "name": "Один союз на два предложения (не because... so, although... but)",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "conjunctions",
+  "topic": "general",
+  "text_ru": "Два предложения соединяет один союз: Because I was tired, I went home (или I was tired, so I went home).",
+  "text_en": "One conjunction links two clauses: Because I was tired, I went home, or I was tired, so I went home.",
+  "wrong": "Because I was tired, so I went home.",
+  "right": "Because I was tired, I went home."
+ },
+ {
+  "rule_id": "because_of",
+  "name": "Перед существительным — because of",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "conjunctions",
+  "topic": "general",
+  "text_ru": "Because ставится перед предложением (because it rained), а перед существительным — because of (because of the rain).",
+  "text_en": "Use because before a clause and because of before a noun (because of the rain).",
+  "wrong": "We stayed at home because the rain.",
+  "right": "We stayed at home because of the rain."
+ },
+ {
+  "rule_id": "article_the",
+  "name": "the — когда понятно, о чём речь, и с единственными (the sun)",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "articles",
+  "topic": "general",
+  "text_ru": "The ставим, когда понятно, о каком предмете речь (его уже упоминали или он единственный): The film was good; The sun is shining.",
+  "text_en": "Use the when it is clear which thing you mean or when it is unique: The film was good; The sun is shining.",
+  "wrong": "I saw a film. A film was good. Sun is shining.",
+  "right": "I saw a film. The film was good. The sun is shining."
+ },
+ {
+  "rule_id": "article_zero",
+  "name": "Без артикля: о чём-то в общем, имена и города, have breakfast, by bus",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "articles",
+  "topic": "general",
+  "text_ru": "Артикль не нужен, когда говорим о чём-то в общем (I like dogs), с именами и городами (Moscow) и в выражениях have breakfast, go to bed, by bus.",
+  "text_en": "Use no article for things in general (I like dogs), with names and cities (Moscow) and in phrases like have breakfast, go to bed, by bus.",
+  "wrong": "I like the dogs. I live in the Moscow.",
+  "right": "I like dogs. I live in Moscow."
+ },
+ {
+  "rule_id": "future_choice",
+  "name": "Решение сейчас — will, план — going to, договорённость — Present Continuous",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "future",
+  "topic": "B1 Учёба и планы",
+  "text_ru": "Решение в момент речи, обещание или предложение помощи — will (I'll close the window); заранее продуманный план — going to; договорённость на конкретное время — Present Continuous (I'm meeting my friend at six).",
+  "text_en": "Use will for decisions made now, promises and offers, going to for plans, and the Present Continuous for fixed arrangements (I'm meeting my friend at six).",
+  "wrong": "It's cold. — I close the window. I meet my friend tomorrow at six.",
+  "right": "It's cold. — I'll close the window. I'm meeting my friend tomorrow at six."
+ },
+ {
+  "rule_id": "past_cont_form",
+  "name": "was / were + глагол с -ing",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_continuous",
+  "topic": "general",
+  "text_ru": "Past Continuous = was / were + глагол с -ing: I was watching TV, they were playing.",
+  "text_en": "The Past Continuous is was / were + verb-ing: I was watching TV, they were playing.",
+  "wrong": "At 8 I watching TV. They was playing.",
+  "right": "At 8 I was watching TV. They were playing."
+ },
+ {
+  "rule_id": "past_simple_vs_continuous",
+  "name": "Длительное действие (фон) — Continuous, короткое (прервало) — Simple",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "past_continuous",
+  "topic": "general",
+  "text_ru": "Длительное действие в прошлом (фон) — Past Continuous, короткое действие, которое его прервало, — Past Simple: I was watching TV when the phone rang.",
+  "text_en": "Use the Past Continuous for the longer background action and the Past Simple for the short action that interrupted it: I was watching TV when the phone rang.",
+  "wrong": "I watched TV when the phone was ringing.",
+  "right": "I was watching TV when the phone rang."
+ },
+ {
+  "rule_id": "present_perfect_adverbs",
+  "name": "ever, never, already, just, yet: место и выбор",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect",
+  "topic": "B1 Опыт путешествий",
+  "text_ru": "Ever, never, just, already стоят между have и третьей формой (I have never been there); yet — в конце отрицаний и вопросов (I haven't finished yet).",
+  "text_en": "Ever, never, just and already go between have and the participle (I have never been there); yet goes at the end of negatives and questions (I haven't finished yet).",
+  "wrong": "I have been never there. I haven't finished already.",
+  "right": "I have never been there. I haven't finished yet."
+ },
+ {
+  "rule_id": "present_perfect_for_since",
+  "name": "for / since, How long — Present Perfect, а не Present Simple",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect",
+  "topic": "B1 Опыт путешествий",
+  "text_ru": "Если действие началось в прошлом и продолжается сейчас (for, since, How long), нужен Present Perfect, а не Present Simple: I have known him since 2018; for — период, since — момент начала.",
+  "text_en": "For situations that started in the past and continue now (for, since, How long) use the Present Perfect: I have known him since 2018; for + period, since + starting point.",
+  "wrong": "I know him since 2018. How long do you live here?",
+  "right": "I have known him since 2018. How long have you lived here?"
+ },
+ {
+  "rule_id": "present_perfect_vs_past",
+  "name": "Указано время в прошлом или When — Past Simple; опыт без времени — Present Perfect",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect",
+  "topic": "B1 Опыт путешествий",
+  "text_ru": "Если указано, когда это было (in 2019, yesterday), или вопрос начинается с When, нужен Past Simple; опыт без указания времени — Present Perfect (I have been to Rome).",
+  "text_en": "With a finished time (in 2019, yesterday) or a When question use the Past Simple; for experience without a time use the Present Perfect (I have been to Rome).",
+  "wrong": "I have visited Rome in 2019. When have you arrived?",
+  "right": "I visited Rome in 2019. When did you arrive?"
+ },
+ {
+  "rule_id": "too_enough",
+  "name": "enough — после прилагательного, перед существительным; too — «слишком», не «очень»",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "too_enough",
+  "topic": "general",
+  "text_ru": "Enough стоит после прилагательного (big enough) и перед существительным (enough money); too значит «слишком» (это плохо), а «очень» — very.",
+  "text_en": "Enough goes after adjectives (big enough) and before nouns (enough money); too means more than is good, so use very to say a lot.",
+  "wrong": "It is not enough big. Your dress is too beautiful!",
+  "right": "It is not big enough. Your dress is very beautiful!"
+ },
+ {
+  "rule_id": "verb_to_infinitive",
+  "name": "to + глагол: после want, decide, hope, после прилагательных, для цели; want someone to",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "verb_patterns",
+  "topic": "general",
+  "text_ru": "После want, decide, hope, после прилагательных (easy to learn) и для цели («чтобы») используется to + глагол; «хочу, чтобы ты пришёл» — I want you to come.",
+  "text_en": "Use to + verb after want, decide, hope, after adjectives (easy to learn) and to express purpose; say I want you to come, not I want that you come.",
+  "wrong": "I want go. I came for learn English. I want that you come.",
+  "right": "I want to go. I came to learn English. I want you to come."
+ },
+ {
+  "rule_id": "verb_ing_after_preposition",
+  "name": "После предлога (in, at, before, look forward to) — глагол с -ing",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "verb_patterns",
+  "topic": "general",
+  "text_ru": "После предлога глагол всегда с -ing: interested in learning, before going; в look forward to слово to — тоже предлог (look forward to hearing).",
+  "text_en": "After a preposition use the -ing form: interested in learning, before going; in look forward to, to is a preposition (look forward to hearing).",
+  "wrong": "I am interested in learn. I look forward to hear from you.",
+  "right": "I am interested in learning. I look forward to hearing from you."
+ },
+ {
+  "rule_id": "have_to_form",
+  "name": "has to после he / she / it; в прошлом — had to; отрицание и вопрос — через do",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "modals_obligation",
+  "topic": "B1 У врача",
+  "text_ru": "С he, she, it — has to; у must нет прошедшего времени, вместо него had to; отрицание и вопрос с have to строятся через do (I don't have to go; Do you have to work?).",
+  "text_en": "Use has to with he / she / it; the past of must is had to; have to forms negatives and questions with do (I don't have to go; Do you have to work?).",
+  "wrong": "She have to work. Yesterday I must go. I haven't to go.",
+  "right": "She has to work. Yesterday I had to go. I don't have to go."
+ },
+ {
+  "rule_id": "mustnt_vs_dont_have_to",
+  "name": "mustn't — нельзя, don't have to — не обязательно",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "modals_obligation",
+  "topic": "B1 У врача",
+  "text_ru": "Mustn't значит «нельзя», а don't have to — «не обязательно, не нужно».",
+  "text_en": "Mustn't means it is not allowed; don't have to means it is not necessary.",
+  "wrong": "You mustn't come tomorrow, it's a holiday.",
+  "right": "You don't have to come tomorrow, it's a holiday."
+ },
+ {
+  "rule_id": "relative_pronoun",
+  "name": "who — о людях, which / that — о предметах (не what); без лишнего it",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "relative_clauses",
+  "topic": "general",
+  "text_ru": "О людях — who, о предметах — which или that (не what); слово, к которому относится придаточное, в нём не повторяется: the book that I read.",
+  "text_en": "Use who for people and which / that for things (not what), and do not repeat the noun with it: the book that I read.",
+  "wrong": "The man which lives here. The book what I read it.",
+  "right": "The man who lives here. The book that I read."
+ },
+ {
+  "rule_id": "would_like",
+  "name": "Вежливая просьба — would like (+ to + глагол)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "modals_basic",
+  "topic": "A1 В кафе",
+  "text_ru": "Вежливая просьба — I would like (I'd like) a coffee; перед глаголом — would like to: I would like to go.",
+  "text_en": "For polite requests use would like (I'd like a coffee), and would like to before a verb (I would like to go).",
+  "wrong": "I like a coffee, please. I would like go there.",
+  "right": "I would like a coffee, please. I would like to go there."
+ },
+ {
+  "rule_id": "adverb_form",
+  "name": "Как выполняется действие — наречие (-ly, well, fast, hard)",
+  "levels": [
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "adverbs",
+  "topic": "general",
+  "text_ru": "Чтобы описать, как выполняется действие, нужно наречие: обычно прилагательное + -ly (carefully), но good — well, fast — fast, hard — hard.",
+  "text_en": "To describe how something is done use an adverb: usually adjective + -ly (carefully), but good — well, fast — fast, hard — hard.",
+  "wrong": "He drives careful and speaks English good.",
+  "right": "He drives carefully and speaks English well."
+ },
+ {
+  "rule_id": "if_clause_no_will_would",
+  "name": "Условные 1-го и 2-го типа: после if — без will / would (If I have..., If I had...)",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "conditionals",
+  "topic": "B1 Учёба и планы",
+  "text_ru": null,
+  "text_en": "After if do not use will or would: first conditional if + Present Simple (If I have time), second conditional if + Past Simple (If I had money).",
+  "wrong": "If I will have time, I will call. If I would have money, I would travel.",
+  "right": "If I have time, I will call. If I had money, I would travel."
+ },
+ {
+  "rule_id": "conditional_main_clause",
+  "name": "Главная часть: 1-й тип — will, 2-й — would",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "conditionals",
+  "topic": "B2 Город и экология",
+  "text_ru": null,
+  "text_en": "In the result clause use will for a real possibility and would for an imaginary situation: If I had money, I would buy a car.",
+  "wrong": "If I had money, I will buy a car.",
+  "right": "If I had money, I would buy a car."
+ },
+ {
+  "rule_id": "unless_until",
+  "name": "unless / until уже значат «если не» / «пока не» — not не нужен",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "conditionals",
+  "topic": "B1 Учёба и планы",
+  "text_ru": null,
+  "text_en": "Unless already means if not and until means up to the time when, so do not add another negative: Unless you hurry...; until you come.",
+  "wrong": "Unless you don't hurry, you will be late. I won't leave until you won't come.",
+  "right": "Unless you hurry, you will be late. I won't leave until you come."
+ },
+ {
+  "rule_id": "stative_continuous",
+  "name": "know, want, understand, like, have (иметь) — без Continuous",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "stative_verbs",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "State verbs (know, want, understand, like, have meaning own) are not normally used in Continuous tenses: I know the answer; I have a car.",
+  "wrong": "I am knowing the answer. I am having a car.",
+  "right": "I know the answer. I have a car."
+ },
+ {
+  "rule_id": "used_to_form",
+  "name": "used to — только о прошлом; did + use to; о настоящем — usually",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "used_to",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Used to describes past habits and states only; after did use use to (I didn't use to), and for present habits use usually.",
+  "wrong": "I didn't used to like it. I use to get up early now.",
+  "right": "I didn't use to like it. I usually get up early now."
+ },
+ {
+  "rule_id": "be_used_to",
+  "name": "be / get used to + -ing (привыкнуть)",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "used_to",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Be / get used to means be / become accustomed to and is followed by the -ing form: I am used to getting up early.",
+  "wrong": "I am used to get up early. I can't used to it.",
+  "right": "I am used to getting up early. I can't get used to it."
+ },
+ {
+  "rule_id": "say_tell",
+  "name": "tell + кто-то, say — без; просьба — told me (not) to",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "reported_speech",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Tell needs a person after it (He told me), say does not (He said that / said to me); for reported orders use tell someone (not) to do.",
+  "wrong": "He said me that he was tired. He told me don't go.",
+  "right": "He told me that he was tired. He told me not to go."
+ },
+ {
+  "rule_id": "reported_question",
+  "name": "Косвенный вопрос: прямой порядок слов, if для общих вопросов",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "reported_speech",
+  "topic": "B2 Собеседование",
+  "text_ru": null,
+  "text_en": "In reported and polite indirect questions use statement word order, and if / whether for yes-no questions: She asked where I lived; Could you tell me what your strengths are?",
+  "wrong": "She asked where do I live. He asked do I like coffee.",
+  "right": "She asked where I lived. He asked if I liked coffee."
+ },
+ {
+  "rule_id": "tense_backshift",
+  "name": "После глагола в прошедшем — сдвиг времени: is → was, will → would",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "reported_speech",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "After a past reporting verb the tense usually moves back: is becomes was, will becomes would.",
+  "wrong": "She said she is tired. I knew he will come.",
+  "right": "She said she was tired. I knew he would come."
+ },
+ {
+  "rule_id": "deduction",
+  "name": "Предположение: must — уверен, что да; can't — уверен, что нет; might — возможно",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "modals_deduction",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "For deductions use must when you are sure something is true, can't when you are sure it is not, and might / could when it is possible.",
+  "wrong": "The lights are off. He mustn't be at home.",
+  "right": "The lights are off. He can't be at home."
+ },
+ {
+  "rule_id": "be_able_to",
+  "name": "be able to там, где can не может: will be able, have been able, was able (удалось)",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "modals_basic",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Can has no future or perfect forms, so use will be able to and have been able to; for one success in the past use was able to.",
+  "wrong": "I will can help you. I have can't sleep.",
+  "right": "I will be able to help you. I haven't been able to sleep."
+ },
+ {
+  "rule_id": "question_tags",
+  "name": "Разделительный вопрос: тот же вспомогательный глагол, противоположный знак",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "questions",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "A question tag repeats the auxiliary of the sentence with the opposite polarity: You like tea, don't you? She is nice, isn't she?",
+  "wrong": "You like tea, isn't it? She is nice, is she?",
+  "right": "You like tea, don't you? She is nice, isn't she?"
+ },
+ {
+  "rule_id": "past_perfect",
+  "name": "had + третья форма — действие раньше другого в прошлом",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "past_perfect",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use had + past participle for an action that happened before another past action: When I arrived, the train had already left.",
+  "wrong": "When I arrived, the train already left.",
+  "right": "When I arrived, the train had already left."
+ },
+ {
+  "rule_id": "ppc_form",
+  "name": "have / has been + глагол с -ing",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect_continuous",
+  "topic": "B2 Собеседование",
+  "text_ru": null,
+  "text_en": "The Present Perfect Continuous is have / has been + verb-ing: I have been working; she has been waiting.",
+  "wrong": "I have working here. She have been waiting.",
+  "right": "I have been working here. She has been waiting."
+ },
+ {
+  "rule_id": "ppc_use",
+  "name": "Действие длится до сих пор (for, since, How long) — Present Perfect Continuous",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "present_perfect_continuous",
+  "topic": "B2 Собеседование",
+  "text_ru": null,
+  "text_en": "For an activity that started in the past and is still going on, especially with for, since and How long, use the Present Perfect Continuous: I have been working here since 2020.",
+  "wrong": "I work here since 2020. How long are you waiting?",
+  "right": "I have been working here since 2020. How long have you been waiting?"
+ },
+ {
+  "rule_id": "passive_form",
+  "name": "be + третья форма; исполнитель — by; I was born",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "passive",
+  "topic": "B2 Технологии и соцсети",
+  "text_ru": null,
+  "text_en": "The passive is be + past participle, with by for the doer; to be born is always passive: I was born in 2004.",
+  "wrong": "The report written by the team. I born in 2004. The house was build.",
+  "right": "The report was written by the team. I was born in 2004. The house was built."
+ },
+ {
+  "rule_id": "passive_impossible",
+  "name": "happen, die, arrive, appear не бывают в пассиве",
+  "levels": [
+   "B1",
+   "B2"
+  ],
+  "category": "passive",
+  "topic": "B2 Технологии и соцсети",
+  "text_ru": null,
+  "text_en": "Verbs without an object (happen, die, arrive, appear) cannot be passive: The accident happened.",
+  "wrong": "The accident was happened yesterday.",
+  "right": "The accident happened yesterday."
+ },
+ {
+  "rule_id": "article_advanced",
+  "name": "Сложные случаи: go to school / bed, реки и озёра, абстрактные понятия",
+  "levels": [
+   "B2"
+  ],
+  "category": "articles",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use no article with places used for their purpose (go to school, go to bed) and abstract nouns in general (Nature is beautiful); rivers and seas take the, lakes and single mountains do not.",
+  "wrong": "He goes to the school. The nature is beautiful.",
+  "right": "He goes to school. Nature is beautiful."
+ },
+ {
+  "rule_id": "few_a_few",
+  "name": "few / little — мало (плохо), a few / a little — немного (хорошо)",
+  "levels": [
+   "B2"
+  ],
+  "category": "quantity",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Few / little mean not many / not much (negative); a few / a little mean some (positive).",
+  "wrong": "I have few friends, so I'm never lonely.",
+  "right": "I have a few friends, so I'm never lonely."
+ },
+ {
+  "rule_id": "quantifier_agreement",
+  "name": "every + ед. ч.; most без of; neither вместо both... not; no / none of",
+  "levels": [
+   "B2"
+  ],
+  "category": "quantity",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Every takes a singular noun and verb; say most people, not most of people; use neither instead of both... not; use no + noun but none of + the / a pronoun.",
+  "wrong": "I go there every days. Most of people like it. Both of them don't like it.",
+  "right": "I go there every day. Most people like it. Neither of them likes it."
+ },
+ {
+  "rule_id": "third_conditional",
+  "name": "3-й тип — только о прошлом: if + had + третья форма, would have + третья форма",
+  "levels": [
+   "B2"
+  ],
+  "category": "conditionals",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "For imaginary past situations use if + had + past participle and would have + past participle: If I had known, I would have come.",
+  "wrong": "If I would have known, I would come.",
+  "right": "If I had known, I would have come."
+ },
+ {
+  "rule_id": "mixed_conditional",
+  "name": "Условие в прошлом, результат сейчас — would + глагол",
+  "levels": [
+   "B2"
+  ],
+  "category": "conditionals",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "When a past condition has a present result, use if + had + past participle and would + base verb: If I had studied medicine, I would be a doctor now.",
+  "wrong": "If I had studied medicine, I would have been a doctor now.",
+  "right": "If I had studied medicine, I would be a doctor now."
+ },
+ {
+  "rule_id": "the_the_comparatives",
+  "name": "The more..., the more... (калька «чем больше, тем...»)",
+  "levels": [
+   "B2"
+  ],
+  "category": "comparison",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "To show that two things change together use the + comparative, the + comparative: The more you read, the more you know.",
+  "wrong": "More you read, more you know.",
+  "right": "The more you read, the more you know."
+ },
+ {
+  "rule_id": "pp_vs_ppc",
+  "name": "Результат, количество, статичные глаголы — Perfect; длительность — Continuous",
+  "levels": [
+   "B2"
+  ],
+  "category": "present_perfect_continuous",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use the Present Perfect for results, numbers of completed things and state verbs, and the Present Perfect Continuous for the duration of an activity.",
+  "wrong": "I have been writing three letters. I have been knowing him for years.",
+  "right": "I have written three letters. I have known him for years."
+ },
+ {
+  "rule_id": "narrative_tenses",
+  "name": "Рассказ о прошлом: фон — Past Continuous, без переключения на настоящее",
+  "levels": [
+   "B2"
+  ],
+  "category": "narrative_tenses",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "In a story keep to past tenses: Past Simple for the main events, Past Continuous for the background, Past Perfect for earlier events.",
+  "wrong": "Yesterday I go to the shop and I saw my friend.",
+  "right": "Yesterday I went to the shop and I saw my friend."
+ },
+ {
+  "rule_id": "future_time_clause",
+  "name": "После when, as soon as, before, after, until (не if) — настоящее время, без will",
+  "levels": [
+   "B2"
+  ],
+  "category": "future",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "After when, as soon as, before, after and until use a present tense, not will: When I finish, I will call you.",
+  "wrong": "When I will finish, I will call you.",
+  "right": "When I finish, I will call you."
+ },
+ {
+  "rule_id": "future_cont_perfect",
+  "name": "Future Continuous — будет в процессе; Future Perfect — будет сделано к...",
+  "levels": [
+   "B2"
+  ],
+  "category": "future",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use will be + -ing for an action in progress at a future time and will have + past participle for an action completed by a future time.",
+  "wrong": "This time tomorrow I will lie on the beach. By 2030 I will finish university.",
+  "right": "This time tomorrow I will be lying on the beach. By 2030 I will have finished university."
+ },
+ {
+  "rule_id": "wish_tense",
+  "name": "После wish — сдвиг назад: Past Simple о настоящем, Past Perfect о прошлом, could об умении",
+  "levels": [
+   "B2"
+  ],
+  "category": "wish",
+  "topic": "B2 Город и экология",
+  "text_ru": null,
+  "text_en": "After wish move the tense back: Past Simple for present wishes (I wish I had), Past Perfect for past regrets (I wish I hadn't said), could for abilities.",
+  "wrong": "I wish I have more time. I wish I didn't say it yesterday.",
+  "right": "I wish I had more time. I wish I hadn't said it yesterday."
+ },
+ {
+  "rule_id": "wish_would",
+  "name": "wish + would — только о других людях, не о себе",
+  "levels": [
+   "B2"
+  ],
+  "category": "wish",
+  "topic": "B2 Город и экология",
+  "text_ru": null,
+  "text_en": "Use wish + would to complain about other people's behaviour, not about yourself: I wish I were taller.",
+  "wrong": "I wish I would be taller.",
+  "right": "I wish I were taller."
+ },
+ {
+  "rule_id": "modal_perfect",
+  "name": "Модальный + have + третья форма: should have, must have, can't have",
+  "levels": [
+   "B2"
+  ],
+  "category": "modals_deduction",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use modal + have + past participle about the past: should have for regrets, must have when you are sure it happened, can't have when you are sure it did not.",
+  "wrong": "I should told you. He must have went. She mustn't have seen it.",
+  "right": "I should have told you. He must have gone. She can't have seen it."
+ },
+ {
+  "rule_id": "verbs_of_senses",
+  "name": "look / sound / taste + прилагательное, look like + существительное; can hear / see",
+  "levels": [
+   "B2"
+  ],
+  "category": "verbs_of_senses",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Look, sound, smell, taste and feel take an adjective (tastes good) or like + noun (looks like a cat); for involuntary perception use can hear / can see.",
+  "wrong": "This soup tastes well. You look like tired. I am hearing music.",
+  "right": "This soup tastes good. You look tired. I can hear music."
+ },
+ {
+  "rule_id": "passive_complex",
+  "name": "Пассив с модальными, Continuous и Perfect: must be done, is being built, has been done",
+  "levels": [
+   "B2"
+  ],
+  "category": "passive",
+  "topic": "B2 Технологии и соцсети",
+  "text_ru": null,
+  "text_en": "Complex passive forms keep be: modal + be + participle (must be done), is being + participle, has been + participle.",
+  "wrong": "It must done today. The house is building now.",
+  "right": "It must be done today. The house is being built now."
+ },
+ {
+  "rule_id": "have_something_done",
+  "name": "Услугу делает кто-то другой — have something done",
+  "levels": [
+   "B2"
+  ],
+  "category": "passive",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "When someone else does a service for you, use have + object + past participle: I had my hair cut.",
+  "wrong": "I cut my hair at the hairdresser's yesterday.",
+  "right": "I had my hair cut at the hairdresser's yesterday."
+ },
+ {
+  "rule_id": "past_perfect_continuous",
+  "name": "had been + -ing — действие длилось до момента в прошлом",
+  "levels": [
+   "B2"
+  ],
+  "category": "past_perfect",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": "Use had been + -ing for an activity that continued up to a moment in the past: She had been crying for an hour when I came.",
+  "wrong": "She was crying for an hour when I came.",
+  "right": "She had been crying for an hour when I came."
+ },
+ {
+  "rule_id": "spelling",
+  "name": "Ошибка в написании слова (receive, friend, beautiful)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": "Слово написано с ошибкой — проверьте, как оно пишется (receive, friend, beautiful). И помните: I («я») всегда пишется с заглавной буквы.",
+  "text_en": "The word is misspelled — check how it is written (receive, friend, beautiful). Remember that I is always a capital letter.",
+  "wrong": "I recieve letters from my freind.",
+  "right": "I receive letters from my friend."
+ },
+ {
+  "rule_id": "word_choice",
+  "name": "Не то слово или неверное сочетание (make / do, learn / teach)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": "Слова сочетаются устойчивыми парами (take a photo, make a mistake), а дословный перевод часто даёт не то слово (learn — учиться самому, teach — учить кого-то).",
+  "text_en": "Some words go together in fixed pairs (take a photo, make a mistake), and a literal translation often gives the wrong word (learn vs teach).",
+  "wrong": "I made a photo. I want to learn you English.",
+  "right": "I took a photo. I want to teach you English."
+ },
+ {
+  "rule_id": "dependent_preposition",
+  "name": "Предлог в паре со словом (interested in, good at, depend on)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": "Предлог запоминают вместе со словом (interested in, good at, depend on); дословный перевод с русского часто неверен.",
+  "text_en": "Prepositions are learned together with the word (interested in, good at, depend on); a literal translation from Russian is often wrong.",
+  "wrong": "I am good in planning and depend from my parents.",
+  "right": "I am good at planning and depend on my parents."
+ },
+ {
+  "rule_id": "word_order",
+  "name": "Порядок слов: прилагательное перед существительным, наречие не между глаголом и дополнением",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": "Прилагательное стоит перед существительным (a red car), а наречие не ставится между глаголом и дополнением (I like it very much).",
+  "text_en": "Adjectives go before the noun (a red car), and an adverb does not come between the verb and its object (I like it very much).",
+  "wrong": "I have a car red. I like very much it.",
+  "right": "I have a red car. I like it very much."
+ },
+ {
+  "rule_id": "double_negative",
+  "name": "Одно отрицание в предложении (never, nothing, nobody уже отрицательные)",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": "В английском предложении одно отрицание: never, nothing, nobody уже отрицательные, поэтому not с ними не нужен (I know nothing / I don't know anything).",
+  "text_en": "An English sentence has only one negative: never, nothing and nobody are already negative (I know nothing / I don't know anything).",
+  "wrong": "I don't know nothing. I don't never eat meat.",
+  "right": "I don't know anything. I never eat meat."
+ },
+ {
+  "rule_id": "other",
+  "name": "Ошибка не подходит ни под одно правило",
+  "levels": [
+   "A1",
+   "A2",
+   "B1",
+   "B2"
+  ],
+  "category": "general",
+  "topic": "general",
+  "text_ru": null,
+  "text_en": null,
+  "wrong": null,
+  "right": null
+ }
+]

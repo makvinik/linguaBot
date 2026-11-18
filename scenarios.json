@@ -1,0 +1,894 @@
+[
+  {
+    "scenario_id": "dorm_meet_a1",
+    "title": "Знакомство в общежитии",
+    "level": "A1",
+    "topic_id": "a1_t1",
+    "bot_role": "Sam, a new roommate in the student dormitory, a student from Canada; speaks very simply, briefly and in a friendly way",
+    "goal": "Get to know each other: say your name, where you are from, how old you are and what you do",
+    "topics": [
+      "name",
+      "where you are from",
+      "age",
+      "study or work"
+    ],
+    "target_vocabulary": [
+      "name",
+      "age",
+      "country",
+      "city",
+      "student",
+      "friend",
+      "from",
+      "job",
+      "teacher",
+      "nice",
+      "meet",
+      "old"
+    ],
+    "target_rules": [
+      "to_be_missing",
+      "to_be_form",
+      "to_be_extra",
+      "pronoun_personal"
+    ],
+    "opening_line": "Hi! I am Sam, your new roommate. What is your name?",
+    "bot_role_ru": "Новый сосед по общежитию Sam, студент из Канады. Говорит очень просто, коротко и дружелюбно.",
+    "goal_ru": "Познакомиться: назвать имя, сказать, откуда вы, сколько вам лет и чем занимаетесь.",
+    "topics_ru": [
+      "имя",
+      "откуда ты",
+      "возраст",
+      "учёба или работа"
+    ],
+    "target_grammar_ru": "Глагол to be (am / is / are)",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hi! I am Sam, your new roommate. What is your name?"
+      },
+      {
+        "role": "user",
+        "text": "Hi! My name Kirill."
+      },
+      {
+        "role": "bot",
+        "text": "Nice to meet you, Kirill! I am from Canada. Where are you from?",
+        "correction": {
+          "original": "My name Kirill",
+          "correct": "My name is Kirill",
+          "rule_id": "to_be_missing"
+        }
+      },
+      {
+        "role": "user",
+        "text": "I am from Russia."
+      },
+      {
+        "role": "bot",
+        "text": "Cool! Russia is a big country. How old are you?"
+      },
+      {
+        "role": "user",
+        "text": "I have 20 years."
+      },
+      {
+        "role": "bot",
+        "text": "I am 20 too! Are you a student?",
+        "correction": {
+          "original": "I have 20 years",
+          "correct": "I am 20 years old",
+          "rule_id": "to_be_missing"
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "family_photo_a1",
+    "title": "Покажи фото семьи",
+    "level": "A1",
+    "topic_id": "a1_t2",
+    "bot_role": "Emma, a groupmate; she shows a photo of her family and asks about yours; speaks simply and with interest",
+    "goal": "Talk about your family and home: who is in your family, where you live, what your room is like",
+    "topics": [
+      "family",
+      "house or flat",
+      "your room",
+      "photos"
+    ],
+    "target_vocabulary": [
+      "mother",
+      "father",
+      "brother",
+      "sister",
+      "family",
+      "room",
+      "kitchen",
+      "house",
+      "flat",
+      "big",
+      "small",
+      "photo"
+    ],
+    "target_rules": [
+      "present_simple_s",
+      "pronoun_possessive",
+      "this_these"
+    ],
+    "opening_line": "Hi! Look, this is a photo of my family. Have you got brothers or sisters?",
+    "bot_role_ru": "Одногруппница Emma. Показывает фото своей семьи и спрашивает о вашей. Говорит просто и с интересом.",
+    "goal_ru": "Рассказать о своей семье и доме: кто есть в семье, где вы живёте, какая у вас комната.",
+    "topics_ru": [
+      "семья",
+      "дом или квартира",
+      "ваша комната",
+      "фото"
+    ],
+    "target_grammar_ru": "have got / has got, my / your, this / that",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hi! Look, this is a photo of my family. Have you got brothers or sisters?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I have got a sister. She have got a cat."
+      },
+      {
+        "role": "bot",
+        "text": "Oh, nice! My brother has got a dog. Do you live in a house or a flat?",
+        "correction": {
+          "original": "She have got",
+          "correct": "She has got",
+          "rule_id": "present_simple_s"
+        }
+      },
+      {
+        "role": "user",
+        "text": "I live in a flat. It is small."
+      },
+      {
+        "role": "bot",
+        "text": "My flat is small too. What is in your room?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "cafe_order_a1",
+    "title": "Заказ в кафе",
+    "level": "A1",
+    "topic_id": "a1_t3",
+    "bot_role": "Mike, a waiter; polite, speaks slowly in short phrases and suggests options",
+    "goal": "Order a drink and food, ask what there is, and ask for the bill",
+    "topics": [
+      "drinks",
+      "food",
+      "anything else",
+      "the bill"
+    ],
+    "target_vocabulary": [
+      "menu",
+      "coffee",
+      "tea",
+      "water",
+      "sandwich",
+      "cake",
+      "milk",
+      "sugar",
+      "bill",
+      "please",
+      "waiter",
+      "hungry"
+    ],
+    "target_rules": [
+      "would_like",
+      "modal_base_verb",
+      "modal_no_do",
+      "some_any"
+    ],
+    "opening_line": "Hello! Welcome to our cafe. Here is the menu. What would you like to drink?",
+    "bot_role_ru": "Официант Mike. Вежливый, говорит медленно и короткими фразами, предлагает варианты.",
+    "goal_ru": "Заказать напиток и еду, спросить, что есть, и попросить счёт.",
+    "topics_ru": [
+      "напитки",
+      "еда",
+      "что-то ещё",
+      "счёт"
+    ],
+    "target_grammar_ru": "would like, can; some / any",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hello! Welcome to our cafe. Here is the menu. What would you like to drink?"
+      },
+      {
+        "role": "user",
+        "text": "I would like a coffee with milk."
+      },
+      {
+        "role": "bot",
+        "text": "Sure! Would you like some sugar?"
+      },
+      {
+        "role": "user",
+        "text": "No, thank you. Can I have any cake?"
+      },
+      {
+        "role": "bot",
+        "text": "Of course! We have chocolate cake and apple cake. Which one would you like?",
+        "correction": {
+          "original": "any cake",
+          "correct": "some cake",
+          "rule_id": "some_any"
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "daily_routine_a2",
+    "title": "Обычный день",
+    "level": "A2",
+    "topic_id": "a2_t1",
+    "bot_role": "Lucy, a new acquaintance from a language club; curious, asks simple questions about your day",
+    "goal": "Talk about your usual day and weekends using adverbs of frequency",
+    "topics": [
+      "morning",
+      "study or work",
+      "evening",
+      "weekends"
+    ],
+    "target_vocabulary": [
+      "get up",
+      "breakfast",
+      "usually",
+      "often",
+      "sometimes",
+      "never",
+      "always",
+      "weekend",
+      "work",
+      "lunch",
+      "go to bed",
+      "early"
+    ],
+    "target_rules": [
+      "present_simple_s",
+      "present_simple_s_extra",
+      "present_simple_no_do",
+      "present_simple_do_does",
+      "present_simple_base_after_does",
+      "frequency_adverb_position"
+    ],
+    "opening_line": "Hi! I always want to know how people live. What time do you usually get up?",
+    "bot_role_ru": "Новая знакомая Lucy из языкового клуба. Любопытная, задаёт простые вопросы о вашем дне.",
+    "goal_ru": "Рассказать о своём обычном дне и выходных, используя наречия частоты.",
+    "topics_ru": [
+      "утро",
+      "учёба или работа",
+      "вечер",
+      "выходные"
+    ],
+    "target_grammar_ru": "Present Simple и наречия частоты",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hi! I always want to know how people live. What time do you usually get up?"
+      },
+      {
+        "role": "user",
+        "text": "I usually get up at 7. My sister get up at 6."
+      },
+      {
+        "role": "bot",
+        "text": "Wow, that's early! What do you have for breakfast?",
+        "correction": {
+          "original": "My sister get up",
+          "correct": "My sister gets up",
+          "rule_id": "present_simple_s"
+        }
+      },
+      {
+        "role": "user",
+        "text": "I eat eggs and drink tea."
+      },
+      {
+        "role": "bot",
+        "text": "Sounds good! What do you usually do in the evening?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "park_talk_a2",
+    "title": "Разговор в парке",
+    "level": "A2",
+    "topic_id": "a2_t2",
+    "bot_role": "Alex, a friendly passer-by sitting on a bench with a dog; speaks simply and slowly",
+    "goal": "Talk to a stranger in the park: describe what is happening around and tell about yourself",
+    "topics": [
+      "weather",
+      "animals (dog, squirrels, birds)",
+      "food (food stalls, ice cream)",
+      "jogging and sport"
+    ],
+    "target_vocabulary": [
+      "weather",
+      "sunny",
+      "windy",
+      "warm",
+      "dog",
+      "squirrel",
+      "bird",
+      "bench",
+      "food stall",
+      "ice cream",
+      "jogging",
+      "run"
+    ],
+    "target_rules": [
+      "present_cont_form",
+      "present_simple_vs_continuous",
+      "there_agreement",
+      "there_missing"
+    ],
+    "opening_line": "Hi! Lovely day, isn't it? The sun is shining. What are you doing in the park today?",
+    "bot_role_ru": "Дружелюбный прохожий Alex, сидит на лавочке с собакой; говорит просто и медленно.",
+    "goal_ru": "Поговорить с незнакомцем в парке: описать, что происходит вокруг, рассказать о себе.",
+    "topics_ru": [
+      "погода",
+      "животные (собака, белки, птицы)",
+      "еда (ларьки, мороженое)",
+      "пробежка и спорт"
+    ],
+    "target_grammar_ru": "Present Continuous; there is / there are",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hi! Lovely day, isn't it? The sun is shining. What are you doing in the park today?"
+      },
+      {
+        "role": "user",
+        "text": "I walk with my friend."
+      },
+      {
+        "role": "bot",
+        "text": "That's nice! Look, there is a squirrel near the bench. Do you like animals?",
+        "correction": {
+          "original": "I walk",
+          "correct": "I am walking",
+          "rule_id": "present_simple_vs_continuous"
+        }
+      },
+      {
+        "role": "user",
+        "text": "Yes! I have got a cat. There is many birds here."
+      },
+      {
+        "role": "bot",
+        "text": "Yes, the birds are singing. Are you hungry? There is a food stall near the lake.",
+        "correction": {
+          "original": "There is many birds",
+          "correct": "There are many birds",
+          "rule_id": "there_agreement"
+        }
+      }
+    ]
+  },
+  {
+    "scenario_id": "weekend_story_a2",
+    "title": "Как прошли выходные",
+    "level": "A2",
+    "topic_id": "a2_t3",
+    "bot_role": "Ben, a friend; asks about your weekend and tells about his own; speaks simply",
+    "goal": "Tell about your last weekend: where you went, what you saw, what you bought, how you feel",
+    "topics": [
+      "where you went",
+      "what you saw",
+      "what you bought or ate",
+      "how you feel"
+    ],
+    "target_vocabulary": [
+      "trip",
+      "ticket",
+      "museum",
+      "visit",
+      "yesterday",
+      "last",
+      "ago",
+      "cinema",
+      "concert",
+      "tired",
+      "buy",
+      "see"
+    ],
+    "target_rules": [
+      "past_tense_needed",
+      "past_irregular",
+      "past_did_form",
+      "past_was_were"
+    ],
+    "opening_line": "Hey! How was your weekend? Did you do anything fun?",
+    "bot_role_ru": "Друг Ben. Расспрашивает о ваших выходных и рассказывает о своих, говорит просто.",
+    "goal_ru": "Рассказать о прошедших выходных: где были, что видели, что купили, как себя чувствуете.",
+    "topics_ru": [
+      "где вы были",
+      "что видели",
+      "что купили или ели",
+      "как себя чувствуете"
+    ],
+    "target_grammar_ru": "Past Simple",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hey! How was your weekend? Did you do anything fun?"
+      },
+      {
+        "role": "user",
+        "text": "It was great! I goed to a museum."
+      },
+      {
+        "role": "bot",
+        "text": "Cool! Which museum did you visit?",
+        "correction": {
+          "original": "I goed",
+          "correct": "I went",
+          "rule_id": "past_irregular"
+        }
+      },
+      {
+        "role": "user",
+        "text": "The history museum. I saw old maps there."
+      },
+      {
+        "role": "bot",
+        "text": "Sounds interesting! Did you buy anything there?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "train_trip_b1",
+    "title": "Рассказ о поездке",
+    "level": "B1",
+    "topic_id": "b1_t1",
+    "bot_role": "Maria, an experienced traveller sharing a train compartment; tells stories and asks about your trips",
+    "goal": "Talk about your travel experience: where and when you went, what you liked and what went wrong",
+    "topics": [
+      "travelling abroad",
+      "your best trip",
+      "problems on the way",
+      "future plans"
+    ],
+    "target_vocabulary": [
+      "abroad",
+      "flight",
+      "luggage",
+      "sightseeing",
+      "ever",
+      "already",
+      "yet",
+      "passport",
+      "journey",
+      "destination",
+      "book",
+      "delay"
+    ],
+    "target_rules": [
+      "present_perfect_form",
+      "present_perfect_vs_past",
+      "present_perfect_adverbs",
+      "present_perfect_for_since"
+    ],
+    "opening_line": "Hi! It's a long journey, isn't it? Have you ever travelled abroad?",
+    "bot_role_ru": "Попутчица в поезде Maria, опытная путешественница. Рассказывает истории и расспрашивает о ваших поездках.",
+    "goal_ru": "Рассказать о своём опыте путешествий: где были, когда, что понравилось и что пошло не так.",
+    "topics_ru": [
+      "были ли вы за границей",
+      "лучшая поездка",
+      "проблемы в дороге",
+      "планы на будущее"
+    ],
+    "target_grammar_ru": "Present Perfect vs Past Simple",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hi! It's a long journey, isn't it? Have you ever travelled abroad?"
+      },
+      {
+        "role": "user",
+        "text": "Yes, I have been to China last year."
+      },
+      {
+        "role": "bot",
+        "text": "How exciting! What did you like most about China?",
+        "correction": {
+          "original": "I have been to China",
+          "correct": "I went to China",
+          "rule_id": "present_perfect_vs_past"
+        }
+      },
+      {
+        "role": "user",
+        "text": "I liked the food and the old streets in Beijing."
+      },
+      {
+        "role": "bot",
+        "text": "Oh, I've never been to Beijing! Did you have any problems on your trip?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "doctor_visit_b1",
+    "title": "Приём у врача",
+    "level": "B1",
+    "topic_id": "b1_t2",
+    "bot_role": "Dr Brown, a calm and attentive doctor; asks about symptoms and gives advice",
+    "goal": "Describe your symptoms, answer the doctor's questions and understand the advice and prescriptions",
+    "topics": [
+      "what is wrong",
+      "how long it has lasted",
+      "the doctor's advice",
+      "medicine and the next appointment"
+    ],
+    "target_vocabulary": [
+      "symptom",
+      "headache",
+      "appointment",
+      "prescription",
+      "rest",
+      "fever",
+      "cough",
+      "sore throat",
+      "medicine",
+      "pharmacy",
+      "patient",
+      "recover"
+    ],
+    "target_rules": [
+      "modal_base_verb",
+      "have_to_form",
+      "mustnt_vs_dont_have_to"
+    ],
+    "opening_line": "Good morning, please take a seat. What seems to be the problem today?",
+    "bot_role_ru": "Врач Dr Brown. Спокойная и внимательная, задаёт вопросы о симптомах и даёт советы.",
+    "goal_ru": "Описать симптомы, ответить на вопросы врача и понять его советы и назначения.",
+    "topics_ru": [
+      "что беспокоит",
+      "как давно",
+      "советы врача",
+      "лекарства и следующий визит"
+    ],
+    "target_grammar_ru": "should, have to, must",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Good morning, please take a seat. What seems to be the problem today?"
+      },
+      {
+        "role": "user",
+        "text": "I have a headache and a cough since Monday."
+      },
+      {
+        "role": "bot",
+        "text": "I see. Do you have a fever?",
+        "correction": {
+          "original": "I have a headache",
+          "correct": "I have had a headache",
+          "rule_id": "present_perfect_for_since"
+        }
+      },
+      {
+        "role": "user",
+        "text": "Yes, a little. Must I stay at home?"
+      },
+      {
+        "role": "bot",
+        "text": "Yes, you should rest for two or three days and drink a lot of water. Are you taking any medicine at the moment?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "study_plans_b1",
+    "title": "Планы после учёбы",
+    "level": "B1",
+    "topic_id": "b1_t3",
+    "bot_role": "Ms Green, a friendly university tutor who helps plan studies and a career",
+    "goal": "Talk about your study and career plans and discuss what will happen in different situations",
+    "topics": [
+      "your studies now",
+      "plans after graduation",
+      "internships and applications",
+      "what will happen if..."
+    ],
+    "target_vocabulary": [
+      "degree",
+      "exam",
+      "apply",
+      "deadline",
+      "internship",
+      "graduate",
+      "scholarship",
+      "career",
+      "subject",
+      "course",
+      "pass",
+      "fail"
+    ],
+    "target_rules": [
+      "going_to_form",
+      "future_choice",
+      "if_clause_no_will_would",
+      "conditional_main_clause"
+    ],
+    "opening_line": "Hello! Let's talk about your future. What are you going to do after you graduate?",
+    "bot_role_ru": "Университетский куратор Ms Green. Доброжелательная, помогает спланировать учёбу и карьеру.",
+    "goal_ru": "Рассказать о своих учебных и карьерных планах и обсудить, что будет при разных вариантах.",
+    "topics_ru": [
+      "учёба сейчас",
+      "планы после выпуска",
+      "стажировки и заявки",
+      "что будет, если …"
+    ],
+    "target_grammar_ru": "be going to / will; First Conditional",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hello! Let's talk about your future. What are you going to do after you graduate?"
+      },
+      {
+        "role": "user",
+        "text": "I am going to apply for a master's abroad. If I will get a scholarship, I will go to Germany."
+      },
+      {
+        "role": "bot",
+        "text": "That's a great plan! What subject are you going to study?",
+        "correction": {
+          "original": "If I will get",
+          "correct": "If I get",
+          "rule_id": "if_clause_no_will_would"
+        }
+      },
+      {
+        "role": "user",
+        "text": "Data science. I also want to do an internship."
+      },
+      {
+        "role": "bot",
+        "text": "Good idea. When is the deadline for your application?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "job_interview_b2",
+    "title": "Собеседование на стажировку",
+    "level": "B2",
+    "topic_id": "b2_t1",
+    "bot_role": "Ms Taylor, an HR manager; polite and formal, asks typical interview questions and clarifies details",
+    "goal": "Pass an internship interview: talk about your experience, skills, strengths and weaknesses, and ask your own questions",
+    "topics": [
+      "about yourself and your experience",
+      "strengths and weaknesses",
+      "teamwork",
+      "the candidate's questions"
+    ],
+    "target_vocabulary": [
+      "experience",
+      "skill",
+      "strength",
+      "weakness",
+      "responsibility",
+      "team",
+      "candidate",
+      "position",
+      "employer",
+      "salary",
+      "achievement",
+      "qualification"
+    ],
+    "target_rules": [
+      "ppc_form",
+      "ppc_use",
+      "reported_question"
+    ],
+    "opening_line": "Good afternoon and thank you for coming. Could you tell me a little about yourself and your experience?",
+    "bot_role_ru": "HR-менеджер Ms Taylor. Вежливая, говорит официально, задаёт типичные вопросы собеседования и уточняет детали.",
+    "goal_ru": "Пройти собеседование на стажировку: рассказать об опыте, навыках, сильных и слабых сторонах, задать свои вопросы.",
+    "topics_ru": [
+      "о себе и опыт",
+      "сильные и слабые стороны",
+      "работа в команде",
+      "вопросы кандидата"
+    ],
+    "target_grammar_ru": "Present Perfect Continuous; formal questions",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Good afternoon and thank you for coming. Could you tell me a little about yourself and your experience?"
+      },
+      {
+        "role": "user",
+        "text": "Of course. I am studying computer science and I am learning Python since three years."
+      },
+      {
+        "role": "bot",
+        "text": "That's impressive. What would you say is your main strength?",
+        "correction": {
+          "original": "I am learning Python since three years",
+          "correct": "I have been learning Python for three years",
+          "rule_id": "ppc_use"
+        }
+      },
+      {
+        "role": "user",
+        "text": "I think my main strength is that I learn quickly and I like working in a team."
+      },
+      {
+        "role": "bot",
+        "text": "Could you give me an example of a team project you have worked on?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "social_media_debate_b2",
+    "title": "Спор о соцсетях",
+    "level": "B2",
+    "topic_id": "b2_t2",
+    "bot_role": "Chris, a colleague with the opposite opinion: he thinks social media does more good than harm; argues politely and gives arguments",
+    "goal": "Express and support your opinion about social media and answer counterarguments",
+    "topics": [
+      "benefits of social media",
+      "privacy and data",
+      "influence on people",
+      "fake news and regulation"
+    ],
+    "target_vocabulary": [
+      "privacy",
+      "device",
+      "algorithm",
+      "influence",
+      "addiction",
+      "data",
+      "account",
+      "post",
+      "follower",
+      "screen time",
+      "fake news",
+      "download"
+    ],
+    "target_rules": [
+      "passive_form",
+      "passive_impossible",
+      "passive_complex"
+    ],
+    "opening_line": "I honestly think social media does more good than harm. It connects people all over the world. What's your opinion?",
+    "bot_role_ru": "Коллега Chris с противоположным мнением: считает, что соцсети приносят больше пользы, чем вреда. Спорит вежливо и приводит аргументы.",
+    "goal_ru": "Высказать и аргументировать своё мнение о соцсетях, отвечать на контраргументы.",
+    "topics_ru": [
+      "польза соцсетей",
+      "приватность и данные",
+      "влияние на людей",
+      "фейки и регулирование"
+    ],
+    "target_grammar_ru": "The passive voice",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "I honestly think social media does more good than harm. It connects people all over the world. What's your opinion?"
+      },
+      {
+        "role": "user",
+        "text": "I partly agree, but our data is collect by every app and we don't know how it is used."
+      },
+      {
+        "role": "bot",
+        "text": "That's a fair point. But isn't it the user's choice to accept the terms?",
+        "correction": {
+          "original": "is collect",
+          "correct": "is collected",
+          "rule_id": "passive_form"
+        }
+      },
+      {
+        "role": "user",
+        "text": "Most people never read the terms. They are written in very difficult language."
+      },
+      {
+        "role": "bot",
+        "text": "True, but do you think governments should control social media companies?"
+      }
+    ]
+  },
+  {
+    "scenario_id": "city_mayor_b2",
+    "title": "Если бы я был мэром",
+    "level": "B2",
+    "topic_id": "b2_t3",
+    "bot_role": "Daniel, a journalist from a local newspaper; interviews you, asks follow-up questions and asks you to justify your ideas",
+    "goal": "Discuss city and environmental problems, suggest what you would change and explain why",
+    "topics": [
+      "problems of the city",
+      "what you would change",
+      "transport and the environment",
+      "your wishes for the city (wish)"
+    ],
+    "target_vocabulary": [
+      "pollution",
+      "traffic",
+      "recycling",
+      "sustainable",
+      "policy",
+      "public transport",
+      "environment",
+      "waste",
+      "emissions",
+      "green space",
+      "mayor",
+      "resident"
+    ],
+    "target_rules": [
+      "if_clause_no_will_would",
+      "conditional_main_clause",
+      "wish_tense",
+      "wish_would"
+    ],
+    "opening_line": "Hello, I'm writing an article about our city. If you were the mayor, what would you change first?",
+    "bot_role_ru": "Журналист местной газеты Daniel. Берёт интервью, задаёт уточняющие вопросы и просит обосновать идеи.",
+    "goal_ru": "Обсудить проблемы города и экологии, предложить, что бы вы изменили, и объяснить почему.",
+    "topics_ru": [
+      "проблемы города",
+      "что бы вы изменили",
+      "транспорт и экология",
+      "ваши желания для города (wish)"
+    ],
+    "target_grammar_ru": "Second Conditional; wish",
+    "end_condition": "Пройдены все подтемы или 16 реплик пользователя",
+    "rules": "Общие правила по уровню (документ недели 2, раздел 3.2)",
+    "example_dialogue": [
+      {
+        "role": "bot",
+        "text": "Hello, I'm writing an article about our city. If you were the mayor, what would you change first?"
+      },
+      {
+        "role": "user",
+        "text": "If I would be the mayor, I would build more bike lanes."
+      },
+      {
+        "role": "bot",
+        "text": "Interesting! Why do you think bike lanes are so important?",
+        "correction": {
+          "original": "If I would be",
+          "correct": "If I were",
+          "rule_id": "if_clause_no_will_would"
+        }
+      },
+      {
+        "role": "user",
+        "text": "Because the traffic is terrible and the air pollution is very high."
+      },
+      {
+        "role": "bot",
+        "text": "I agree. Do you wish the city had better public transport?"
+      }
+    ]
+  }
+]
