@@ -100,6 +100,13 @@ Rules:
 4. Put only the wrong fragment in "original", not the whole sentence.
 5. Never correct facts, opinions, or what the student chose to say. Do not correct short or one-word answers that are acceptable in conversation.
 6. Do not mention the correction inside "reply".
+7. Do not treat capitalization, missing final punctuation,
+   missing apostrophes, or common informal chat expressions
+   (idk, tbh, nah, gonna, wanna) as errors by themselves.
+   Do not add cosmetic-only changes to "corrections".
+   Preserve the student's meaning and informal tone.
+   Correct genuine grammar, vocabulary, and spelling mistakes.
+
 Allowed rule_id values:
 {rules}{fewshot}"""
 
