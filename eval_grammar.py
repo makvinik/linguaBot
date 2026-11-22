@@ -18,7 +18,7 @@ from pathlib import Path
 
 import pandas as pd
 
-DEFAULT_TEST = 'linguabot_test_set_v7_2_apostrophes_169.jsonl'
+DEFAULT_TEST = 'linguabot_test_set_.jsonl'
 CYR = re.compile(r'[А-Яа-яЁё]')
 EMOJI_MD = re.compile(r'[\U0001F300-\U0001FAFF☀-➿]|\*\*|^#|`', re.M)
 LABEL = re.compile(r'follow[- ]?up question|^question\s*:', re.I | re.M)
