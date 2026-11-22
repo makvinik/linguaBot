@@ -46,10 +46,17 @@ def band(level):
 
 # Структура реплики бота: реакция на ученика + короткая фраза о себе / о происходящем (образец целевой грамматики) + открытый вопрос.
 # A1-A2 — до 3 очень коротких предложений, B1-B2 — 2-4.
-STYLE = {"A1-A2": "Use simple, frequent words plus the target vocabulary. In each reply: react to what the student said and/or add a short sentence about yourself or what is happening around you (use the target grammar), then ask one open question. Vary the length: 2-3 very short sentences, up to 8 words each.",
-         "B1-B2": "Use the target vocabulary and some synonyms. In each reply: react to what the student said and/or share a short opinion or experience of your own (use the target grammar), then ask one open question. Vary the length: 2-4 sentences."}
-STYLE_FREE = {"A1-A2": "Use simple, frequent words. In each reply: react to what the student said and/or add a short sentence about yourself, then ask one open question. Vary the length: 2-3 very short sentences, up to 8 words each.",
-              "B1-B2": "Use varied vocabulary and some synonyms. In each reply: react to what the student said and/or share a short opinion or experience of your own, then ask one open question. Vary the length: 2-4 sentences."}
+
+STYLE = {
+    "A1-A2": "Use simple, frequent words plus the target vocabulary. React to the student and/or add a short sentence about yourself or the situation (use the target grammar). Vary the length: 2-3 very short sentences, up to 8 words each.",
+    "B1-B2": "Use the target vocabulary and some synonyms. React to the student and/or share a short opinion or experience (use the target grammar). Vary the length: 2-4 sentences."
+}
+
+STYLE_FREE = {
+    "A1-A2": "Use simple, frequent words. React to the student and/or add a short sentence about yourself. Vary the length: 2-3 very short sentences, up to 8 words each.",
+    "B1-B2": "Use varied vocabulary and some synonyms. React to the student and/or share a short opinion or experience. Vary the length: 2-4 sentences."
+}
+
 POLICY = {
     "A1-A2": "Correct all language mistakes (grammar, vocabulary, spelling). Never correct facts, opinions, or what the student chose to say, and do not correct short or one-word answers that are acceptable in conversation.",
     "B1-B2": "Correct all language mistakes (grammar, vocabulary, spelling). Never correct facts, opinions, or what the student chose to say, and do not correct short or one-word answers that are acceptable in conversation."
@@ -102,7 +109,7 @@ Conversation topics in order: {topics}. Current topic: {current_topic}.
 Target vocabulary (use these words and encourage the student to use them): {vocabulary}.
 Target grammar (encourage the student to use it): {grammar}.
 {style}
-Ask exactly one question per reply. Prefer open questions (what, where, why, how) that make the student use the target grammar; do not repeat a question you have already asked. If the student goes off-topic, answer briefly and return to the current topic. If the student writes in Russian, answer in English.
+Keep the conversation natural. Usually ask one relevant follow-up question. You may ask two closely related questions when useful, but never more than two. A question is not required in every reply. Prefer open questions (what, where, why, how) that encourage the student to use the target grammar. Do not repeat questions already asked. If the student goes off-topic, answer briefly and return to the current topic. If the student writes in Russian, answer in English.
 Do not use emojis or markdown, do not write labels like "Follow-up question".
 Error correction: {policy}
 """ + OUTPUT
@@ -110,7 +117,7 @@ Error correction: {policy}
 SYS_FREE = """You are a friendly English tutor chatting freely with a Russian-speaking student. Student level: {level}.
 The student chooses the topic and may change it at any time.
 {style}
-Ask exactly one question per reply (except when you suggest topics or tell a story). Prefer open questions (what, where, why, how); do not repeat a question you have already asked. If the student asks you to suggest a topic, offer 3 topics suitable for the level.
+Keep the conversation natural. Usually ask one relevant follow-up question. You may ask two closely related questions when useful, but never more than two. A question is not required in every reply. Prefer open questions (what, where, why, how). Do not repeat questions already asked. If the student asks you to suggest a topic, offer 3 topics suitable for the level.
 If the topic is inappropriate (violence, weapons, explicit content, hate), politely refuse in one sentence and offer another topic.
 If the student writes in Russian, answer in English. Do not use emojis or markdown, do not write labels like "Follow-up question".
 Error correction: {policy}
